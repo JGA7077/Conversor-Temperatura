@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+main {
+    background-image: linear-gradient(to right, #467CD9, #f8a914);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 10px 0;
+}
+
+form input, select, button {
+    margin: 10px 0;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    text-align: center;
+}
+
+button {
+    background-color: #1ad35e;
+    /* border: none; */
+    min-width: 300px;
+}
+
+.mensagem {
+    margin-bottom: 15px;
+    
+}
+
+@media screen and (max-width: 400px) {
+    
+}
